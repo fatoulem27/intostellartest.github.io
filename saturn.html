@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>토성 여행 상품 - INTOSTELLAR</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap">
+    <link rel="stylesheet" href="style_saturn.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"><b>인투스텔라</b></a>
+        </div>
+        <div class="search">
+            <input type="text" id="searchInput" placeholder="검색어를 입력하세요">
+            <button id="searchButton">검색</button>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">홈</a></li>
+                <li><a href="#" onClick="window.location.href='travelto.html'">여행 상품</a></li>
+                <li><a href="#">프로모션</a></li>
+                <li><a href="#">고객센터</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="destination-detail">
+            <h1>토성 탐험</h1>
+            <div class="destination-info">
+                <img src="image2.jpg" alt="토성">
+                <div class="description">
+                    <h3><b>[인천출발]토성 직항 | 타이탄 | 엔셀라두스 | 미마스</b></h3>
+                    <p>토성의 아름다운 고리와 여러 위성을 체험할 수 있는 여행 상품입니다.<br>토성 궤도를 도는 우주선을 타고 환상적인 우주 여행을 경험해보세요.</p>
+                    <ul><b>
+                        <li>SpaceX X360 왕복 우주선 / 60박 61일/ 특식 3회</li>
+                        <li>여행 내용: 토성 통과 / 육각형 구름 / 고리 / 타이탄 / 엔셀라두스 / 미마스</li>
+                        <li>인원: 3인 ~ 9인</li>
+                        <li>가격: <span style="color: rgb(3, 169, 3)">5,327,880,000원</span> ~</li>
+                    </b></ul>
+                    <button onClick="window.location.href='booking.html'">예약하기</button>
+                </div>
+            </div>
+            <div class="destination-info-footer"><p>***아래 여행 정보를 정독하세요***</p></div>
+        </section>
+        <hr>
+        <section class="travel-itinerary">
+            <h2>여행 일정</h2>
+            <ul class="itinerary-list">
+                <!-- 1일차부터 61일차까지의 여행 일정 -->
+                <li>
+                    <div class="day">1일차 ~ 25일차</div>
+                    <div class="activity">
+                        <img src="day1_image.jpg" alt="우주선 출발">
+                        <p>인천 &#8594; 토성 우주선 이동</p>
+                    </div>
+                </li>
+                <!-- 이하 생략 -->
+                <!-- 60일차 -->
+                <li>
+                    <div class="day">60일차</div>
+                    <div class="activity">
+                        <p>목성 궤도 도착 및 토성 통과</p>
+                        <img src="day60_image.jpg" alt="목성 궤도 도착 및 토성 통과">
+                    </div>
+                </li>
+                <!-- 61일차 -->
+                <li>
+                    <div class="day">61일차</div>
+                    <div class="activity">
+                        <p>지구 귀환</p>
+                        <img src="day61_image.jpg" alt="지구 귀환">
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; INTOSTELLAR. All rights reserved.</p>
+    </footer>
+
+    <script src="script_saturn.js"></script>
+</body>
+</html>

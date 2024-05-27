@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INTOSTELLAR</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="#" onClick="window.location.href='index.html'"><b>인투스텔라</b></a>
+        </div>
+        <div class="search">
+            <input type="text" id="searchInput" placeholder="검색어를 입력하세요">
+            <button id="searchButton">검색</button>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#" onClick="window.location.href='index.html'">홈</a></li>
+                <li><a href="#" onClick="window.location.href='travelto.html'">여행 상품</a></li>
+                <li><a href="#">프로모션</a></li>
+                <li><a href="#">고객센터</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="slider">
+                <div class="slides">
+                    <div class="slide">
+                        <img src="image1.jpg" alt="여행지1">
+                        <div class="caption">
+                            <h3>지구</h3>
+                            <p>예쁘다 지구</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="image2.jpg" alt="여행지2">
+                        <div class="caption">
+                            <h3>토성</h3>
+                            <p>고리 우와ㅏㅏ yo</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="image3.jpg" alt="여행지3">
+                        <div class="caption">
+                            <h3>천왕성</h3>
+                            <p>파란색 마음에 듦</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="featured-destinations">
+            <h2>추천 여행지</h2>
+            <div class="destinations">
+                <div class="destination" onClick="window.location.href='preparing.html'">
+                    <img src="image4.jpg" alt="여행지1">
+                    <h3>달</h3>
+                    <p>달 사랑해</p>
+                </div>
+                <div class="destination" onClick="window.location.href='saturn.html'">
+                    <img src="image2.jpg" alt="여행지2">
+                    <h3>토성</h3>
+                    <p>토성과 토성의 고리, 위성 체험</p>
+                </div>
+                <div class="destination" onClick="window.location.href='preparing.html'">
+                    <img src="image3.jpg" alt="여행지3">
+                    <h3>천왕성</h3>
+                    <p>yo</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; INTOSTELLAR. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
